@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lucky Dice</string>
+    <string name="button">Test your luck</string>
+    <string name="this_is_a_dice">this is a dice</string>
+</resources>
