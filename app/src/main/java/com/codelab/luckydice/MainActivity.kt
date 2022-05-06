@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
 
         fun getImageResource(diceRoll: Int): Int {
-            val drawableResource1 = when (diceRoll) {
+            val drawableResource = when (diceRoll) {
                 1 -> R.drawable.dice_1
                 2 -> R.drawable.dice_2
                 3 -> R.drawable.dice_3
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 5 -> R.drawable.dice_5
                 else -> R.drawable.dice_6
             }
-            return drawableResource1
+            return drawableResource
         }
 
         fun rollDice() {
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"entre : $diceRoll1 y: $diceRoll2 ",Toast.LENGTH_LONG).show()
 
             diceImage1.setImageResource(drawableResource1)
-            diceImage1.setImageResource(drawableResource2)
+            diceImage2.setImageResource(drawableResource2)
 
 
             diceImage1.contentDescription = diceRoll1.toString()

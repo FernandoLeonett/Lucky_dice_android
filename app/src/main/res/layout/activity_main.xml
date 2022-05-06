@@ -28,7 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:srcCompat="@drawable/dice_1" />
+
+        tools:srcCompat="@drawable/dice_1" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -41,7 +42,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dice_1" />
+        tools:srcCompat="@drawable/dice_2" />
+
 
     <Button
         android:id="@+id/button"
